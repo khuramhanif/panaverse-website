@@ -5,6 +5,7 @@ import Image from "next/image";
 import web3 from "@/Assets/web3.png"
 import ai from "@/Assets/ai.png"
 import { useState } from "react";
+import { MdKeyboardArrowRight } from 'react-icons/md';
 
 const programsData = [
   {
@@ -72,20 +73,7 @@ const SpecializedTracks = () => {
             </p>
             <button className="text-primary font-medium mt-4 text-xl flex gap-x-2 items-end underline border border-primary rounded-sm ">
               Learn More
-              <svg
-                className="mb-1"
-                width="10"
-                height="13"
-                viewBox="0 0 8 11"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1.00006 10.0368L6.06801 5.57117L1.09503 0.999994"
-                  stroke="#00616C"
-                  strokeWidth="2"
-                />
-              </svg>
+              <MdKeyboardArrowRight/>
             </button>
             <div className="flex flex-col lg:flex-row gap-x-4 mt-8">
               {selectedItemsData?.quarters.map((item)=>(
