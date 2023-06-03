@@ -30,7 +30,7 @@ const Hero = () => {
                 Bioinformatics Technologies. 
                 </p> 
                 <p>
-                Panaverse DAO's mission statement
+                Panaverse DAO mission statement
                 is to train Web 3.0 and Metaverse Developers and to create
                 products using these cutting-edge technologies
               </p>

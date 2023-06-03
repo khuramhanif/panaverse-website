@@ -22,10 +22,10 @@ function Header() {
             </li>
 
             <li>
-              <Link href={"/Profile"}>Profile</Link>
+              <Link href={"/"}>Profile</Link>
             </li>
             <li>
-              <Link href={"/courses"} >Coursess</Link>
+              <Link href={"/"} >Coursess</Link>
 
               
 

@@ -23,7 +23,7 @@ const Outcome = () => {
                             own valuable products such as Full-Stack App Templates, AR and VR Experiences,
                             and APIs that are marketed globally by the Panaverse DAO. You will also have the opportunity
                             to offer your services at a rate of $50 per hour, providing a path to financial stability
-                            while contributing to the growth of Pakistan's software exports.</p>
+                            while contributing to the growth of Pakistan software exports.</p>
                         <div className="mt-6 grid grid-cols-2 gap-x-2 gap-y-4 " >
                             {apps.map((items , i)=>(
                                 <div key={i} className="flex gap-x-2 items-center">
